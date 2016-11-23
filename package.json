@@ -1,0 +1,21 @@
+{
+  "name": "simple-xiangqi",
+  "author": {
+    "name": "Andrew Heintz",
+    "email": "admin@vortexel.com"
+  },
+  "description": "An online version of Chinese Chess/Xiangqi/Elephant Chess",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.x",
+    "grunt-contrib-clean": "~1.0.x",
+    "grunt-contrib-concat": "~1.0.x",
+    "grunt-contrib-copy": "~1.0.x",
+    "grunt-contrib-uglify": "~1.0.x",
+    "grunt-contrib-watch": "~1.0.x",
+    "grunt-typescript": "^0.8.0"
+  }
+}

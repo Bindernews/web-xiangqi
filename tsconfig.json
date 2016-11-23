@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "build/ts"
+    },
+    "files": [
+        "src/model.ts",
+        "src/manager.ts",
+        "src/client_common.ts",
+        "src/local_client.ts",
+        "lib/jquery.d.ts"
+    ]
+}
