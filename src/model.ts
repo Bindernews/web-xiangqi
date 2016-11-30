@@ -484,6 +484,10 @@ export class MoveChecker {
         }
     }
 
+    /**
+     * Add the given point on the board to the list of possible moves only if there is another
+     * piece located at that position.
+     */
     private static addPointIfPointFilled(board : Board, moves : Point[], pt : Point) {
         if (pt != null && board.getPieceAtPoint(pt) != null) {
             moves.push(new Point(pt.x, pt.y));

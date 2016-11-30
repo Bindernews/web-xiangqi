@@ -1,5 +1,5 @@
 
-import {Board, Side} from './model.ts';
+import {Board, Side} from './model';
 
 const MAX_SAFE_INTEGER = 9007199254740991;
 
